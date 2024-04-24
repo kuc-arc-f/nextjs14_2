@@ -1,17 +1,17 @@
-﻿# nextjs14_2
+﻿# turso test
 
  Version: 0.9.1
 
  Author  : Kouji Nakashima / kuc-arc-f.com
 
- date    : 2024/04/22 
+ date    : 2024/04/22
 
  update  :
 
 ***
 ### Summary
 
-Next.js 14, sample
+Turso LibSQL sample
 
 ***
 ### setting
@@ -23,6 +23,8 @@ const nextConfig = {
     env: {
         APP_NAME: "app1234",
         API_URI : "",
+        TURSO_AUTH_TOKEN: "",
+        TURSO_URL: "libsql://",
     }, 
     experimental: {
         missingSuspenseWithCSRBailout: false,
